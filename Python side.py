@@ -162,7 +162,7 @@ if aquaint==True:
         os.chdir(file_path)
     log_session_in=time.asctime(time.localtime())
     print(cur_user,'What would you like to do today? ')
-    b='1.Create new poll\n3.View results\n4.View log records\nPress any other key to log off '
+    b='1.Create new poll\n2.View results\n3.View log records\nPress any other key to log off '
     for i in b:
         print(i,end='')
         time.sleep(0.02)
